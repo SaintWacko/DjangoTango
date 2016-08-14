@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+
+{% load staticfiles %}
+<html>
+
+	<head>
+		<title>About</title>
+	</head>
+
+	<body>
+		<h1>About Rango</h1>
+		<div>
+			This is the about page! <br />
+			<strong>{{ aboutmessage }}</strong><br />
+		</div>
+		<div>
+			<a href="/rango/"><img src="{% static "images/logo.png" %}" alt="Spaceship and Sun" /></a><br />
+		</div>
+	</body>
+</html>
